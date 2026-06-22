@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# Source data — not published
+Input Data/
+Anaysis/
+
+# Internal docs
+prompts.md
+TO-DO.md
+
+# Cleaning scripts (not needed at runtime)
+scripts/
+
+# Temp / scratch files
+read_excel_*.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Claude Code local settings
+.claude/
